@@ -1,0 +1,77 @@
+.mail_row{
+    display: flex;
+    margin:0;
+    align-items: center;
+    height: 40px;
+    cursor: pointer;
+    border-bottom: 1px solid whitesmoke;
+}
+.mail_row:hover{
+    box-shadow: 2px 2px 2px 2px whitesmoke;
+    border: 1px solid lightgray;
+}
+.mail_row:hover  .MuiSvgIcon-root{
+    color: black;
+}
+.mail_row .MuiSvgIcon-root{
+    display: flex;
+    font-size: 16px;
+    color: lightgray;
+}
+    
+
+.mail_row .title{
+   display: flex;
+   margin-right: 18px;
+   max-width:82px; 
+   text-overflow: ellipsis;
+   overflow: hidden;
+   white-space: nowrap;
+}
+.title > h3{
+    font-size: 13px;
+}
+.mail_row .message {
+    flex: 0.7;
+    display: flex;
+    align-items: center;
+    padding-left: 5px;
+    padding-right: 3px;
+    max-width: 700px;
+}
+.mail_row:hover > .message{
+    max-width: 600px;
+}
+
+.mail_row .message > h3{
+    font-size: 13px;
+   min-width: max-content; 
+   padding-inline-start: 5px;
+}
+.mail_row .message > small{
+    text-overflow: ellipsis;
+    font-size: 13px;
+   max-width: 450px;
+   overflow: hidden;
+   white-space: nowrap;
+   color: gray;
+}
+.row_options{
+    display: none;
+    
+}
+.mail_row:hover > .row_options{
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+}
+.time{
+   flex: 0.2;
+    font-size: 9px;
+    margin-left: auto;
+    white-space: nowrap;
+}
+
+.mail_row:hover > .time{
+    display: none;
+}

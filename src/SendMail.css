@@ -1,0 +1,92 @@
+.send_mail{
+    position: absolute;
+    right: 50px;
+    bottom: 0;
+    border: 1px solid whitesmoke;
+    border-radius: 10px;
+    height: 65%;
+    width: 35%;
+    max-width: 500px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 0px 5px 4px rgba(157, 162, 160, 0.897);
+}
+.send-mail_header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(188, 244, 225, 0.397);
+   height: 35px;
+}
+.header-icons .MuiSvgIcon-root{
+    font-size: 15px;
+    color:rgb(37, 36, 36);
+    padding: 0;
+}
+.send-mail_header > h3{
+    font-size: 14px;
+    color: rgb(37, 36, 36);
+}
+.full{
+    transform: rotate(45deg);
+}
+.send_mail > form{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+/* .form-body{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5px;
+} */
+ .send_mail > form > input{
+    height: 25px;
+    font-size: 14px;
+    background-color: transparent;
+    padding: 5px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid lightgray
+}
+ .mail-message{
+    flex:1 ;
+    border: none !important;
+    outline: none;
+    padding: 8px;
+    font-family: inherit;
+}
+.form-footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    align-items: center;
+}
+.send{
+    background-color:#0b57d0;;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 15px;
+    height: 30px;
+   width: 50px;
+   cursor: pointer;
+    margin-right: 10px;
+}
+.form-footer .MuiSvgIcon-root{
+    font-size: 14px;
+    color: rgb(62, 59, 59);
+}
+.mail_error{
+    text-align: right;
+    font-size: 12px;
+    color: red;
+    font-style: italic;
+    padding: 1px;
+    margin: 1px;
+}
+

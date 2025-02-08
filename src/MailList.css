@@ -1,0 +1,33 @@
+.maillist{
+    flex: 1;
+    overflow: scroll;
+    background-color:white;
+    border-radius: 20px;
+}
+.list-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 999;
+}
+.list-header .MuiSvgIcon-root{
+    font-size: 17px;
+}
+.list-header_right{
+    display: flex;
+    
+    align-items: center;
+}
+.list-header_right > p{
+    color: gray;
+    font-size: 13px;
+}
+.mail-list_sections{
+    display: flex;
+    top: 0;
+    border-bottom: 1px solid whitesmoke;
+    z-index: 100;
+}

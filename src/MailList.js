@@ -60,7 +60,7 @@ useEffect(() => {
         <Sections Icon={PeopleIcon} title="Social" color='green'  />
       </div>
       <div className="mail-row">
-        {emails.map(({ id, data: { email, subject, message,} }) => {
+        {emails.map(({ id, data: { email, subject, message, timestamp} }) => {
          return( <MailRow
             id={id}
             key={id}
